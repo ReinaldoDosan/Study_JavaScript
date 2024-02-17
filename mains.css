@@ -5,3 +5,23 @@ h1.drink {
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
 }
+
+
+@media (max-width: 1920px){
+  .container {
+    width: 1230px;
+  }
+}
+
+@media (max-width: 992px){
+  .container {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+
+.container {
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+}
